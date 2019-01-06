@@ -1,0 +1,2629 @@
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:34:34 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 216ms (Views: 10.4ms)
+
+
+Started GET "/result.xml?&param=3&commit=Calculate" for 127.0.0.1 at 2017-12-10 15:34:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result.xml"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:35:35 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 8ms (Views: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:35:39 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 7ms (Views: 4.5ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:35:41 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 66ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:35:42 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 89ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:35:53 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 66ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:35:54 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 113ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:37:41 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 83ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:38:00 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 64ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:39:48 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 75ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:39:59 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:40:02 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 9ms (Views: 6.3ms)
+
+
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 15:40:06 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 406 Not Acceptable in 95ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:40:13 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 78ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:40:36 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 62ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:40:37 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 80ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:42:12 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 75ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:42:15 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vetas/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 11ms (Views: 5.3ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:42:18 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 406 Not Acceptable in 78ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&param=hehehe" for 127.0.0.1 at 2017-12-10 15:42:22 +0300
+Processing by Rails::WelcomeController#index as XML
+  Parameters: {"param"=>"hehehe"}
+Completed 406 Not Acceptable in 83ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:49:11 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 248ms
+
+
+  
+NoMethodError (undefined method `find_armstrongs' for #<XmlController:0x007fce1544b2c8>
+Did you mean?  finae_armstrongs):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:49:14 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 68ms
+
+
+  
+NoMethodError (undefined method `find_armstrongs' for #<XmlController:0x007fce15678938>
+Did you mean?  finae_armstrongs):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:49:24 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 130ms
+
+
+  
+NoMethodError (undefined method `find_armstrongs' for #<XmlController:0x007fce1591eac0>
+Did you mean?  finae_armstrongs):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:49:46 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 15:49:48 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:49:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:25:in `**'
+app/controllers/xml_controller.rb:25:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:25:in `map'
+app/controllers/xml_controller.rb:25:in `armstrong_number?'
+app/controllers/xml_controller.rb:36:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:35:in `find_armstrongs'
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:49:52 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:25:in `**'
+app/controllers/xml_controller.rb:25:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:25:in `map'
+app/controllers/xml_controller.rb:25:in `armstrong_number?'
+app/controllers/xml_controller.rb:36:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:35:in `find_armstrongs'
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 15:49:56 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:25:in `**'
+app/controllers/xml_controller.rb:25:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:25:in `map'
+app/controllers/xml_controller.rb:25:in `armstrong_number?'
+app/controllers/xml_controller.rb:36:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:35:in `find_armstrongs'
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 15:50:05 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:9:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 15:50:30 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:9:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 15:51:45 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:9:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=hehe" for 127.0.0.1 at 2017-12-10 15:51:53 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:10:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=hehe" for 127.0.0.1 at 2017-12-10 15:52:00 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:10:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 15:52:01 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:25:in `**'
+app/controllers/xml_controller.rb:25:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:25:in `map'
+app/controllers/xml_controller.rb:25:in `armstrong_number?'
+app/controllers/xml_controller.rb:36:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:35:in `find_armstrongs'
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:00:21 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:27:in `**'
+app/controllers/xml_controller.rb:27:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:27:in `map'
+app/controllers/xml_controller.rb:27:in `armstrong_number?'
+app/controllers/xml_controller.rb:38:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:37:in `find_armstrongs'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:00:23 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:27:in `**'
+app/controllers/xml_controller.rb:27:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:27:in `map'
+app/controllers/xml_controller.rb:27:in `armstrong_number?'
+app/controllers/xml_controller.rb:38:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:37:in `find_armstrongs'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:00:27 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (Array can't be coerced into Integer):
+  
+app/controllers/xml_controller.rb:27:in `**'
+app/controllers/xml_controller.rb:27:in `block in armstrong_number?'
+app/controllers/xml_controller.rb:27:in `map'
+app/controllers/xml_controller.rb:27:in `armstrong_number?'
+app/controllers/xml_controller.rb:38:in `block in find_armstrongs'
+app/controllers/xml_controller.rb:37:in `find_armstrongs'
+app/controllers/xml_controller.rb:8:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:00:40 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `to_xml' for 100..999:Range
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:12:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:00:59 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 12ms
+
+
+  
+NoMethodError (undefined method `to_xml' for 100..999:Range
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:12:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:01:00 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 12ms
+
+
+  
+NoMethodError (undefined method `to_xml' for 100..999:Range
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:12:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:01:44 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 500 Internal Server Error in 130ms
+
+
+  
+NameError (undefined local variable or method `armstrongs' for #<XmlController:0x007fce156424f0>
+Did you mean?  armstrong_number?):
+  
+app/controllers/xml_controller.rb:12:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=rss&param=3" for 127.0.0.1 at 2017-12-10 16:02:00 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 26ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 16:02:03 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `to_xml' for "There is no data or the data is incorrect":String
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:11:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=hehe" for 127.0.0.1 at 2017-12-10 16:02:05 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"hehe"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `to_xml' for "There is no data or the data is incorrect":String
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:11:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:02:13 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:17 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 12ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:23 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:29 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 12ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:40 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 7ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 8ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:02:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:03:32 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 8ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:03:43 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:04:03 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:05:22 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:05:26 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:05:29 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:05:33 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:07:21 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:07:23 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 12ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:07:24 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 8ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:07:29 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:07:57 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:07:57 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2017-12-10 16:08:02 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:12:25 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:12:28 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:12:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:12:48 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 8ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:13:02 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 7ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-10 16:13:05 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-11 11:32:27 +0300
+Processing by XmlController#index as */*
+Completed 500 Internal Server Error in 235ms
+
+
+  
+NoMethodError (undefined method `map' for "There is no data or the data is incorrect":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:11:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2017-12-11 11:32:42 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 25ms (Views: 0.2ms)
+
+
+Started GET "/calculator/result?utf8=%E2%9C%93&param=4&commit=Calculate" for 127.0.0.1 at 2018-11-21 01:32:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calculator/result"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-21 10:44:27 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 3044ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:14:11 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1473ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:15:08 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 3560ms
+
+
+  
+ActionController::UnknownFormat (XmlController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.6) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.6) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:16:53 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 2ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:26:13 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/Bauman_ruby_labs-master/Bauman_ruby_labs-master/#10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:28:39 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1391ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/Bauman_ruby_labs-master/Bauman_ruby_labs-master/#10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:32:19 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 2028ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-21 21:32:23 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/Bauman_ruby_labs-master/Bauman_ruby_labs-master/#10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-25 02:35:40 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 744ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-25 02:35:45 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:36:24 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 123ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:36:31 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 54ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:36:37 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 55ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:36:41 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 57ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:42:27 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-11-25 02:43:12 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-25 23:48:34 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 696ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-25 23:48:37 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-25 23:49:04 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 97ms (Views: 0.1ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-25 23:53:47 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 622ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-25 23:53:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1255ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-25 23:54:28 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-25 23:54:30 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-25 23:58:58 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-25 23:59:59 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:00:49 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:01:58 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:02:37 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:02:59 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:03:35 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:05:43 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:06:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:07:13 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:07:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:08:24 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:08:38 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:08:54 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:10:25 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:11:02 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:11:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 3ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:12:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:20:39 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+  
+SyntaxError (C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  
+app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-11-26 00:23:24 +0300
+  
+SyntaxError (C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  
+app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:23:31 +0300
+  
+SyntaxError (C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  
+app/controllers/xml_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:25:01 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:30:53 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 00:30:58 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:31:21 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:31:33 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:31:40 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:31:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:32:40 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:32:57 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:33:05 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:34:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:34:48 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:35:56 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-26 00:39:33 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 582ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-26 00:39:38 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:40:29 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 71ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 00:41:11 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:46:21 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 702ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-11-26 19:47:40 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/xml_controller.rb:16:in `+'
+app/controllers/xml_controller.rb:16:in `index'
+Started GET "/?format=xml&param=6" for 127.0.0.1 at 2018-11-26 19:49:13 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"6"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/xml_controller.rb:16:in `+'
+app/controllers/xml_controller.rb:16:in `index'
+Started GET "/?format=xml&param=12%205%205%205%20545%205%205%2045%205%205%20545" for 127.0.0.1 at 2018-11-26 19:50:34 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"12 5 5 5 545 5 5 45 5 5 545"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/xml_controller.rb:16:in `+'
+app/controllers/xml_controller.rb:16:in `index'
+Started GET "/?format=xml&param=12%205%205%205%20545%205%205%2045%205%205%20545" for 127.0.0.1 at 2018-11-26 19:52:52 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"12 5 5 5 545 5 5 45 5 5 545"}
+Completed 200 OK in 212ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=12%205%205%205%20545%205%205%2045%205%205%20545" for 127.0.0.1 at 2018-11-26 19:53:01 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"12 5 5 5 545 5 5 45 5 5 545"}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=12%205%205%205%20545%205%205%2045%205%205%20545" for 127.0.0.1 at 2018-11-26 19:53:09 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"12 5 5 5 545 5 5 45 5 5 545"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-02 14:17:39 +0300
+Processing by XmlController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-12-02 14:17:39 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 6232ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Completed 500 Internal Server Error in 5900ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-12-02 14:19:18 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 141ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20" for 127.0.0.1 at 2018-12-02 14:20:00 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45 "}
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=23%204%205%205%2045%20" for 127.0.0.1 at 2018-12-02 14:20:08 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 5 45 "}
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=23%204%205%205%2045%20" for 127.0.0.1 at 2018-12-02 14:20:30 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 5 45 "}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=23%204%205%205%2045%20" for 127.0.0.1 at 2018-12-02 14:20:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 5 45 "}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=23%204%205%205%2045%20" for 127.0.0.1 at 2018-12-02 14:21:42 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 5 45 "}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20" for 127.0.0.1 at 2018-12-02 14:22:09 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45 "}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20" for 127.0.0.1 at 2018-12-02 14:23:58 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45 "}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-02 14:48:47 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 647ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-12-02 14:49:43 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 92ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-12-02 14:49:48 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=4" for 127.0.0.1 at 2018-12-02 14:49:52 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=125%205%205%205%205%205%205%205%205" for 127.0.0.1 at 2018-12-02 14:50:01 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 5 5 5 5 5 5 5"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=125%205%205%205%205%205%205%205%205%204%2045%205%205%205%201%20125%2025" for 127.0.0.1 at 2018-12-02 14:50:12 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 5 5 5 5 5 5 5 4 45 5 5 5 1 125 25"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=125%205%205%205%205%205%205%205%205%204%2045%205%205%205%201%20125%2025" for 127.0.0.1 at 2018-12-02 14:50:22 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 5 5 5 5 5 5 5 4 45 5 5 5 1 125 25"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=125%205%205%205%205%205%205%205%205%204%2045%205%205%205%201%20125%2025" for 127.0.0.1 at 2018-12-02 14:50:28 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 5 5 5 5 5 5 5 4 45 5 5 5 1 125 25"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-03 18:15:01 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 4270ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-12-03 18:17:02 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 336ms (Views: 0.6ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-12-03 18:17:15 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 4ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=23%204%205%2045%20%206%20656%2056%205%205%205%205%20545%205%205%2055%2045%205%205%205%205%2045" for 127.0.0.1 at 2018-12-03 18:17:22 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"23 4 5 45  6 656 56 5 5 5 5 545 5 5 55 45 5 5 5 5 45"}
+Completed 200 OK in 4ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2018-12-03 18:17:33 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2018-12-03 18:17:45 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=3" for 127.0.0.1 at 2018-12-03 18:17:53 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"3"}
+Completed 200 OK in 0ms (Views: 0.4ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-03 18:21:45 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 3746ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-03 18:23:11 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 507ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=125%205%20" for 127.0.0.1 at 2018-12-03 18:23:26 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 "}
+Completed 200 OK in 4ms (Views: 0.7ms)
+
+
+Started GET "/?format=xml&param=125%205%20" for 127.0.0.1 at 2018-12-03 18:23:34 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"125 5 "}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-04 07:40:50 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 3311ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:9:in `index'
+Started GET "/?format=xml&param=123%2034%205%205%205%2025" for 127.0.0.1 at 2018-12-04 07:42:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"123 34 5 5 5 25"}
+Completed 200 OK in 362ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:07 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 0ms (Views: 0.4ms)
+
+
+Started GET "/?format=rss&param=123%2034%205%205%205%2025" for 127.0.0.1 at 2018-12-04 07:48:09 +0300
+Processing by XmlController#index as RSS
+  Parameters: {"param"=>"123 34 5 5 5 25"}
+Completed 200 OK in 0ms (Views: 0.4ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:11 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 10ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:12 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 10ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:14 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:15 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 10ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:16 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/?format=xml&param=" for 127.0.0.1 at 2018-12-04 07:48:17 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>""}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-11 08:47:54 +0300
+Started GET "/" for 127.0.0.1 at 2018-12-11 08:47:54 +0300
+Processing by XmlController#index as HTML
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 4919ms
+
+
+Completed 500 Internal Server Error in 4879ms
+
+
+  
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+  
+app/controllers/xml_controller.rb:6:in `index'
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2018-12-11 08:48:18 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 20ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/mipro/Desktop/ЛАБЫ/Лабы ИП/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2018-12-13 10:07:14 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 3556ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2019-01-06 13:52:08 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 263ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2019-01-06 13:52:13 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2019-01-06 13:57:12 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2019-01-06 13:57:41 +0300
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:7:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for ::1 at 2019-01-06 21:10:02 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 250ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for ::1 at 2019-01-06 21:57:11 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 246ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at c:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Started GET "/" for ::1 at 2019-01-06 22:12:41 +0300
+Processing by XmlController#index as HTML
+Completed 500 Internal Server Error in 325ms
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:6:in `index'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.2. (called from block in <top (required)> at C:/Users/Kirill/Desktop/kekpek/lab10/xslt-api/config/routes.rb:4)
+Started GET "/?format=xml&param=1%202%203%204%204%204%204%2055%20123%201123123" for 127.0.0.1 at 2019-01-06 22:22:09 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"1 2 3 4 4 4 4 55 123 1123123"}
+Completed 200 OK in 298ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&param=1%202%203%204%204%204%204%2055%20123%201123123" for 127.0.0.1 at 2019-01-06 22:22:14 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"1 2 3 4 4 4 4 55 123 1123123"}
+Completed 200 OK in 3ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=1%202%203%204%204%204%204%2055%20123%201123123" for 127.0.0.1 at 2019-01-06 22:22:18 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"1 2 3 4 4 4 4 55 123 1123123"}
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&param=1%202%203%204%204%204%204%2055%20123%201123123" for 127.0.0.1 at 2019-01-06 22:29:15 +0300
+Processing by XmlController#index as XML
+  Parameters: {"param"=>"1 2 3 4 4 4 4 55 123 1123123"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+
